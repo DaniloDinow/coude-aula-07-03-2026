@@ -52,9 +52,14 @@
         <br><br>
         <label for="tipo_incricao">Tipo de Inscrição</label>
         <select name="tipo_incricao" id="tipo_incricao">
+            <option value="" disabled selected hidden>Selecione</option>
             <option value="Palestrante">Palestrante</option>
             <option value="Participante">Participante</option>
         </select>
+        <br><br>
+        <label for="expectativa">Quais suas expectativas para o evento?</label><br>
+        <textarea name="expectativa" id="expectativa" maxlength="1000"></textarea>
+        <br><br>
         <input type="submit" value="ENVIAR">
         <input type="reset" value="LIMPAR">
     </fieldset>
